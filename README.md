@@ -1,5 +1,9 @@
 # 实验 1 · Android 开发基础
 
+已在 Android 13（API 33）模拟器构建、安装并运行设备验收测试。连接测试设备后可用 `.\gradlew.bat connectedDebugAndroidTest` 重跑；测试会在应用中操作，请使用测试设备。
+
+实际运行截图：[首个工程](docs/hello.png)。
+
 本实验是一个最小的原生 Android 应用。进入首页显示 Hello, Android!，点“运行检查”后文案变为“第一个 Android 工程运行成功”。
 
 ## 运行

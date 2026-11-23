@@ -50,5 +50,6 @@ public class CourseTest {
     d.waitForIdle();
     click("运行检查");
     has("第一个 Android 工程运行成功");
+    d.takeScreenshot(new java.io.File(ctx.getFilesDir(), "hello.png"));
   }
 }
