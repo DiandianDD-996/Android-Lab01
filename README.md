@@ -1,12 +1,16 @@
 # 实验 1 · Android 开发基础
 
-已在 Android 13（API 33）模拟器构建、安装并运行设备验收测试。连接测试设备后可用 `.\gradlew.bat connectedDebugAndroidTest` 重跑；测试会在应用中操作，请使用测试设备。
-
-实际运行截图：[首个工程](docs/hello.png)。
-
 本实验是一个最小的原生 Android 应用。进入首页显示 Hello, Android!，点“运行检查”后文案变为“第一个 Android 工程运行成功”。
 
+## 运行效果
+
+<img src="docs/hello.png" width="260" alt="点击「运行检查」后，首页显示成功提示。">
+
+点击「运行检查」后，首页显示成功提示。
+
 ## 运行
+
+已在 Android 13（API 33）模拟器构建、安装并运行设备验收测试。连接测试设备后可用 `.\gradlew.bat connectedDebugAndroidTest` 重跑；测试会在应用中操作，请使用测试设备。
 
 在 Android Studio 中打开本仓库根目录，使用 JDK 17、Android SDK Platform 35 和 Build Tools 34.0.0。选择 API 26 或更高版本的设备，等待 Gradle 同步后运行 app。Windows 命令行也可在仓库根目录执行：
 
